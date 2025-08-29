@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emergency Service Directory</title>
+  <link rel="stylesheet" href="styles/hotline.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#" aria-label="Home">
+        <span class="brand__logo" aria-hidden="true">
+          <img src="assets/logo.png" alt="Logo" width="28" height="28" />
+        </span>
+        <span class="brand__text">
+          <strong>Emergency</strong> Service
+        </span>
+      </a>
+
+      <div class="header-right">
+        <nav class="nav-stats" aria-label="Stats">
+          <div class="stat" title="Favourites">
+            <span class="icon heart" aria-hidden="true">
+              <img src="assets/heart.png" alt="Favourites" width="18" height="18" />
+            </span>
+            <span id="heartCount">0</span>
+          </div>
+          <div class="stat" title="Coins">
+            <span class="icon coin" aria-hidden="true">
+              <img src="assets/coin.png" alt="Coins" width="18" height="18" />
+            </span>
+            <span id="coinCount">100</span>
+          </div>
+          <div class="stat pill" title="Copy Count">
+            <span class="icon copy" aria-hidden="true">
+              <img src="assets/copy.png" alt="Copy Count" width="16" height="16" />
+            </span>
+            <span id="copyCount">2 Copy</span>
+          </div>
+        </nav>
+        <div class="lang-switcher">
+          <button id="lang-en" class="lang-btn active">EN</button>
+          <button id="lang-bn" class="lang-btn">BN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="english-content" class="content-section">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__emblem">
+            <img src="assets/logo-dark.png" alt="Bangladesh Govt. Emblem" width="60" height="60" />
+          </div>
+          <h1 class="hero__title">Emergency Service Directory</h1>
+          <p class="hero__tagline">
+            Government Emergency Services at Your Fingertip. A Project by Government of the People’s Republic of Bangladesh
+          </p>
+        </div>
+      </section>
+
+      <div class="container layout">
+        <div class="cards">
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/police.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">National Emergency Number</h3>
+            <p class="card__subtitle">National Helpline</p>
+            <p class="card__number">999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/police.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Police Helpline Number</h3>
+            <p class="card__subtitle">Police</p>
+            <p class="card__number">999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/fire-service.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Fire Service Number</h3>
+            <p class="card__subtitle">Fire Service</p>
+            <p class="card__number">999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/ambulance.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Ambulance Service</h3>
+            <p class="card__subtitle">Ambulance</p>
+            <p class="card__number">1994-9999999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:19949999999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/brac.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Women & Child Helpline</h3>
+            <p class="card__subtitle">Women & Child Abuse</p>
+            <p class="card__number">109</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:109" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/brac.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Anti-Corruption Helpline</h3>
+            <p class="card__subtitle">Anti-Corruption Commission</p>
+            <p class="card__number">106</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:106" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/electricity.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Electricity Helpline</h3>
+            <p class="card__subtitle">Palli Bidyut</p>
+            <p class="card__number">16216</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Paid</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:16216" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/brac.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Brac Helpline</h3>
+            <p class="card__subtitle">BRAC</p>
+            <p class="card__number">16445</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Paid</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:16445" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/bangladesh-railway.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">Bangladesh Railway Helpline</h3>
+            <p class="card__subtitle">Bangladesh Railway</p>
+            <p class="card__number">163</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Paid</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:163" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>Call Now</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>Copy</span></button>
+            </div>
+          </div>
+        </div>
+        <aside class="history">
+          <div class="history__head">
+            <div class="history__title">
+              <span class="i"><img src="assets/clock.png" alt="" /></span>
+              <h2>Call History</h2>
+            </div>
+            <button class="btn-clear">Clear All</button>
+          </div>
+          <ul class="history__list">
+            <li class="history__item">
+              <div class="service">National Emergency</div>
+              <div class="meta">999</div>
+              <div class="time">1 min ago</div>
+            </li>
+            <li class="history__item">
+              <div class="service">Police Helpline</div>
+              <div class="meta">999</div>
+              <div class="time">5 min ago</div>
+            </li>
+            <li class="history__item">
+              <div class="service">Fire Service</div>
+              <div class="meta">999</div>
+              <div class="time">10 min ago</div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+
+    <div id="bangla-content" class="content-section hidden">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__emblem">
+            <img src="assets/logo-dark.png" alt="Bangladesh Govt. Emblem" width="60" height="60" />
+          </div>
+          <h1 class="hero__title">জরুরি সেবা ডিরেক্টরি</h1>
+          <p class="hero__tagline">
+            Government Emergency Services at Your Fingertip. A Project by Government of the People’s Republic of Bangladesh
+          </p>
+        </div>
+      </section>
+
+      <div class="container layout">
+        <div class="cards">
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/police.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">জাতীয় হেল্পলাইন</h3>
+            <p class="card__subtitle">National Helpline</p>
+            <p class="card__number">999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/police.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">পুলিশ</h3>
+            <p class="card__subtitle">Police</p>
+            <p class="card__number">999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/fire-service.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">ফায়ার সার্ভিস</h3>
+            <p class="card__subtitle">Fire Service</p>
+            <p class="card__number">999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/ambulance.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">অ্যাম্বুলেন্স</h3>
+            <p class="card__subtitle">Ambulance</p>
+            <p class="card__number">1994-9999999</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:19949999999" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/brac.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">নারী ও শিশু নির্যাতন</h3>
+            <p class="card__subtitle">Women & Child Abuse</p>
+            <p class="card__number">109</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:109" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/brac.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">দুদক</h3>
+            <p class="card__subtitle">Anti-Corruption Helpline</p>
+            <p class="card__number">106</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Free</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:106" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/electricity.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">পল্লী বিদ্যুত</h3>
+            <p class="card__subtitle">Palli Bidyut</p>
+            <p class="card__number">16216</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Paid</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:16216" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/brac.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">ব্র্যাক</h3>
+            <p class="card__subtitle">BRAC</p>
+            <p class="card__number">16445</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Paid</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:16445" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head">
+              <span class="card__icon"><img src="assets/bangladesh-railway.png" alt="" /></span>
+              <button class="heart-btn" aria-label="Add to favorites"><img src="assets/heart.png" alt="" /></button>
+            </div>
+            <h3 class="card__title">বাংলাদেশ রেলওয়ে</h3>
+            <p class="card__subtitle">Bangladesh Railway</p>
+            <p class="card__number">163</p>
+            <div class="badges">
+              <span class="badge">Hotline</span>
+              <span class="badge">Paid</span>
+            </div>
+            <div class="card__actions">
+              <a href="tel:163" class="btn btn-call"><span class="i"><img src="assets/phone.png" alt="" /></span><span>কল করুন</span></a>
+              <button class="btn btn-light"><span class="i"><img src="assets/copy.png" alt="" /></span><span>কপি</span></button>
+            </div>
+          </div>
+        </div>
+        <aside class="history">
+          <div class="history__head">
+            <div class="history__title">
+              <span class="i"><img src="assets/clock.png" alt="" /></span>
+              <h2>কল হিস্টরি</h2>
+            </div>
+            <button class="btn-clear">মুছে ফেলুন</button>
+          </div>
+          <ul class="history__list">
+            <li class="history__item">
+              <div class="service">জাতীয় হেল্পলাইন</div>
+              <div class="meta">999</div>
+              <div class="time">1 min ago</div>
+            </li>
+            <li class="history__item">
+              <div class="service">পুলিশ</div>
+              <div class="meta">999</div>
+              <div class="time">5 min ago</div>
+            </li>
+            <li class="history__item">
+              <div class="service">ফায়ার সার্ভিস</div>
+              <div class="meta">999</div>
+              <div class="time">10 min ago</div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>&copy; 2025 Emergency Service Directory</small>
+    </div>
+  </footer>
+
+  <script>
+    const langEN = document.getElementById('lang-en');
+    const langBN = document.getElementById('lang-bn');
+    const contentEN = document.getElementById('english-content');
+    const contentBN = document.getElementById('bangla-content');
+
+    function switchLanguage(lang) {
+      if (lang === 'en') {
+        contentEN.classList.remove('hidden');
+        contentBN.classList.add('hidden');
+        langEN.classList.add('active');
+        langBN.classList.remove('active');
+      } else if (lang === 'bn') {
+        contentEN.classList.add('hidden');
+        contentBN.classList.remove('hidden');
+        langEN.classList.remove('active');
+        langBN.classList.add('active');
+      }
+    }
+
+    langEN.addEventListener('click', () => switchLanguage('en'));
+    langBN.addEventListener('click', () => switchLanguage('bn'));
+
+    const browserLang = navigator.language.split('-')[0];
+    if (browserLang === 'bn') {
+      switchLanguage('bn');
+    } else {
+      switchLanguage('en');
+    }
+  </script>
+</body>
+</html>
